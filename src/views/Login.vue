@@ -1,5 +1,11 @@
 <template>
-  <div class="about">
+  <div class="login">
     登陆组件
   </div>
 </template>
+<script>
+
+export default {
+
+}
+</script>
