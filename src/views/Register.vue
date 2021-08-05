@@ -1,6 +1,6 @@
 <template>
   <div class="register">
-    组测组件
+   <hm-header>注册</hm-header>
   </div>
 </template>
 

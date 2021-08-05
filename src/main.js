@@ -11,6 +11,9 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 // 导入rem 适配
 import 'amfe-flexible'
+// 全局组测组件
+import HmHeader from './components/Hm-Header.vue'
+Vue.component('hm-header', HmHeader)
 Vue.config.productionTip = false
 
 Vue.use(Vant)
