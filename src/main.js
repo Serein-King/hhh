@@ -4,7 +4,12 @@ import router from './router'
 import store from './store'
 // 导入样式
 import './style/base.less'
+// 导入vant
+import Vant from 'vant'
+import 'vant/lib/index.css'
 Vue.config.productionTip = false
+
+Vue.use(Vant)
 
 new Vue({
   router,
